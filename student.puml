@@ -1,0 +1,14 @@
+@startuml
+'class Dummy{
+'    +String data
+'    -Integer iD
+'    -void methods()
+'    +void changeId()
+'}
+class Flight{
+    flightNumber : Integer
+    departureTime : Date
+    + Date getDepartureTime()
+    - void changeDepartureTime()
+}
+@enduml
